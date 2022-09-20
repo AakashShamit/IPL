@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45336389-df11-463e-8241-95f8154283ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RCBTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RCBTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
