@@ -15,7 +15,6 @@ public class JsonOperations{
 
     private volatile static JsonOperations obj;
     ArrayList<String> values = new ArrayList<>();
-    ArrayList<String> buffer = new ArrayList<>();
 
     public static JsonOperations getInstance() {
         if (obj == null) {
@@ -30,9 +29,12 @@ public class JsonOperations{
         return obj;
     }
 
-    public void cleanDS(){
+
+    public void cleanDS()
+    {
         values.clear();
     }
+
 
     public void getValueFromInnerJsonArray(JSONObject json, String arrayNodeKey, String key){
         boolean isNodePresent = json.has(arrayNodeKey);
@@ -61,6 +63,7 @@ public class JsonOperations{
             }
         }
     }
+
 
     public void getKey(JSONObject json, String key){
         boolean isPresent = json.has(key);
@@ -103,6 +106,7 @@ public class JsonOperations{
         values.add((String)json.get(key));
     }
 
+
     public JSONObject convertIntoJSONObject(String jsonFilePath){
         InputStream is = JsonOperations.class.getResourceAsStream(jsonFilePath);
         if (is == null) {
@@ -113,11 +117,13 @@ public class JsonOperations{
         return object;
     }
 
+
     public ArrayList<String> returnKey(JSONObject json, String key){
         cleanDS();
         getKey(json,key);
         return values;
     }
+
 
     public ArrayList<String> returnValueFromInnerJsonArray(JSONObject json,String arrayNodeKey, String key){
         cleanDS();

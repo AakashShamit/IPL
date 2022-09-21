@@ -9,7 +9,7 @@ import java.util.ArrayList;
 @Log4j2
 public class RCBTests extends Core{
     @Test
-    public void test1(){
+    public void rcbTeamValidation(){
 
         validateTeamSize(Constants.RCB_JSON);    //Validates the team size
 
@@ -22,10 +22,5 @@ public class RCBTests extends Core{
         validateForiegnPLayerPolicy(Constants.RCB_JSON);  //Tests that team is having exactly 4 foriegn players
 
     }
-
-
-
-
-
 
 }
